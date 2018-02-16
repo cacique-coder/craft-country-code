@@ -55,7 +55,7 @@ class CountryCodeTwigExtension extends \Twig_Extension
     /**
      * Returns an array of Twig functions, used in Twig templates via:
      *
-     *      {% set this = someFunction('something') %}
+     *      {% set this = someFunction('getCountryCode') %}
      *
     * @return array
      */
@@ -73,7 +73,7 @@ class CountryCodeTwigExtension extends \Twig_Extension
      *
      * @return string
      */
-    public function someInternalFunction($text = null)
+    public function getCountryCode($text = null)
     {
         $result = $text . " in the way";
 
