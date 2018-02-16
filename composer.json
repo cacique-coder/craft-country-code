@@ -30,8 +30,8 @@
         }
     },
     "extra": {
-        "name": "CountryCode",
-        "handle": "country-code",
+        "name": "CraftCountryCode",
+        "handle": "craft-country-code",
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/@cacique.coder/country-code/master/CHANGELOG.md",
