@@ -2,7 +2,7 @@
     "name": "netengine/country-code",
     "description": "Get country code per IP",
     "type": "craft-plugin",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "keywords": [
         "craft",
         "cms",
