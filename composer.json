@@ -1,0 +1,40 @@
+{
+    "name": "netengine/country-code",
+    "description": "Get country code per IP",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "countrycode"
+    ],
+    "support": {
+        "docs": "https://github.com/@cacique.coder/country-code/blob/master/README.md",
+        "issues": "https://github.com/@cacique.coder/country-code/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Zambrano",
+            "homepage": "https://github.com/cacique-coder"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "netengine\\countrycode\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "CountryCode",
+        "handle": "country-code",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/@cacique.coder/country-code/master/CHANGELOG.md",
+        "class": "netengine\\countrycode\\CountryCode"
+    }
+}
